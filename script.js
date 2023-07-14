@@ -7,7 +7,7 @@ class Animal {
         return this._species;
     }
     makeSound() {
-        console.log(`${species} makes a sound`);
+        console.log(`${this._species} makes a sound`);
     }
 }
 
